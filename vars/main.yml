@@ -3,8 +3,8 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo: https://github.com/allenmoore/dotfiles.git
+dotfiles_repo_local_destination: ~/
 dotfiles_files:
   - .bash_profile
   - .gitconfig
@@ -15,41 +15,79 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - ansible
+  - ack
   - autoconf
+  - automake
+  - bash
   - bash-completion
+  - brew-cask-completion
+  - bundler-completion
+  - casperjs
+  - composer-completion
+  - coreutils
+  - curl
+  - dark-mode
+  - diff-so-fancy
   - docker
   - docker-compose
   - docker-machine
+  - docker-machine-completion
+  - findutils
+  - freetype
+  - gdbm
+  - gem-completion
   - gettext
   - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libdvdcss
-  - libevent
-  - packer
-  - python
+  - git-lfs
+  - gmp
+  - gnu-sed
+  - gnupg
+  - grep
+  - grunt-completion
+  - icu4c
+  - jpeg
+  - libgpg-error
+  - libidn
+  - libksba
+  - libpng
+  - libtool
+  - libxml2
+  - libyaml
+  - lua
+  - lynx
+  - moreutils
+  - narwhal
+  - openssh
+  - openssl
+  - pcre
+  - php71
+  - pigz
+  - pkg-config
+  - pv
+  - pyenv
+  - readline
+  - rename
+  - rhino
+  - ringojs
+  - screen
+  - sfnt2woff
+  - sfnt2woff-zopfli
+  - spark
+  - ssh-copy-id
   - sqlite
   - mcrypt
   - mysql
-  - npm
-  - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
-  - ssh-copy-id
-  - cowsay
-  - ios-sim
-  - readline
-  - subversion
-  - kdiff3
-  - openssl
-  - pv
-  - drush
+  - tree
+  - unixodbc
+  - vim
+  - vv
+  - webkit2png
   - wget
-  - wrk
+  - wpcli-completion
+  - xz
+  - zopfli
+  - zsh
+  - zsh-completions
   - brew-cask
 
 homebrew_taps:
@@ -61,29 +99,48 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
+  - alfred
+  - amazon-cloud-drive
+  - android-file-transfer
+  - appcleaner
+  - atom
+  - avira-antivirus
+  - bartender
+  - box-sync
+  - caffeine
   - google-chrome
+  - chrome-devtools
+  - cloudup
+  - dash
+  - docker
+  - dockertoolbox
   - dropbox
-  - fing
+  - droplr
+  - electron
   - firefox
-  - handbrake
+  - genymotion
+  - gitify
+  - gitter
+  - imageoptim
+  - importio
+  - integrity
+  - iterm2
   - karabiner
-  - limechat
   - licecap
+  - macdown
   - macvim
-  - menumeters
-  - nvalt
   - sequel-pro
-  - skype
-  - skitch
-  - seil
-  - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
+  - slack
+  - spectacle
+  - spotify
+  - sublime-text
+  - stay
+  - the-unarchiver
   - timemachineeditor
   - tower
-  - transmit
   - vagrant
   - vagrant-manager
-  - vlc
   - virtualbox
+  - xguardian
+  - xtrafinder
+  - zoomus
